@@ -1,25 +1,184 @@
 body {
+  margin: 0;
+  padding: 0;
   color: #000000;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
 h1 {
   font-size: 55px;
-  font-family: "Roboto";
   font-weight: 500;
   line-height: 55px;
-
+  background-color: #eeeeee;
+  text-align: center;
 }
 
 h2 {
   font-size: 18px;
-  font-family: "Roboto";
   line-height: 30px;
+}
 
+ul {
+  list-style-type: none;
 }
 
 .feedback {
   display: none;
 }
+
+.site-navigation a {
+  font-size: 16px;
+  line-height: 30px;
+  background: #eeeeee;
+
+
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #e74246;
+}
+
+.site-navigation a:active {
+  color:#999999
+}
+
+.site-navigation .active {
+  color: black;
+  border-bottom: 1px solid #e74246;
+}
+
+.feature-item {
+  text-align: center;
+  display: inline-block;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.caption {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.percent {
+  font-size: 45px;
+  line-height: 10px;
+}
+
+.pros {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 64px;
+}
+
+.partners {
+  text-align: center;
+  display: inline-block;
+}
+
+.window-title {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.social-networks {
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.sale{
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.radio .checkbox {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+.sort {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.datum {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.product {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+
+
+.popup-window {
+  color: #ffffff;
+  background-color: #fb565a;
+}
+
+.popup-window button:hover,
+.popup-window button:focus {
+  color: #ffffff;
+  background-color: #e74246;
+}
+
+.popup-window button:active {
+  color: #e37376;
+  background-color: #d7373b;
+}
+
+.show-form {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.show-form button:hover,
+.show-form button:focus{
+  color: #000;
+ background-color: #dfdfdf;
+}
+
+.show-form button:active {
+  color: #b7b7b7;
+  background-color: #d5d5d5;
+}
+
+.choice-button{
+  color: #ffffff;
+  background-color: #fb565a;
+}
+
+.choice-button button:hover,
+.choice-button button:focus {
+  color: #ffffff;
+  background-color: #e74246;
+}
+
+.choice-button button:active {
+  color: #ffffff;
+  background-color: #d7373b;
+}
+
+

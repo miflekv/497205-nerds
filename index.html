@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <header class="main-heder" style="background: #eeeeee; margin: 0 auto">
@@ -14,7 +16,7 @@
 
                 <ul class="site-navigation">
                     <li><a href="studio.html">Студия</a></li>
-                    <li><a href="customers.html">Клиенты</a></li>
+                    <li><a href="customers.html" class="active">Клиенты</a></li>
                     <li><a href="shop.html">Магазин</a></li>
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
@@ -80,8 +82,9 @@
                 </ul>
         </section>
         <section class="advantages">
-            <b>
-            Мы - маленькая, гордая дизайн - студия из Краснодара.
+            <b class="caption" >
+            Мы &#8212; маленькая, гордая<br>
+                дизайн - студия из Краснодара.
             </b>
             <p>Исповедуем принципы минимализма и чистоты.Ставим математический расчет превыше креатива. Работаем не покладаем
             рук, как работы.</p>
@@ -89,46 +92,46 @@
             Выполняем заказы на разработку:
             </h3>
                 <ul>
-                    <li>Веб-сайтов любой сложности</li>
-                    <li>Мобильных приложений для IOS и Android</li>
-                    <li>Слайдшоу и видео для корпоративных презентаций</li>
+                    <li class="services-on-main">Веб-сайтов любой сложности</li>
+                    <li class="services-on-main">Мобильных приложений для IOS и Android</li>
+                    <li class="services-on-main">Слайдшоу и видео для корпоративных презентаций</li>
                 </ul>
                     <img src="img/home/nerds-illustration.png" alt="" width="300" height="150">
                     <span>C 2004 года любим точность во всем: </span>
                 <ul>
                     <li>
-                        <span>146%</span>
-                        <span>Уровень самоотдачи</span>
+                        <span class="percent">146%</span><br>
+                        <span class="pros">Уровень самоотдачи</span>
                     </li>
                     <li>
-                        <span>100%</span>
-                        <span>Соблюдение сроков</span>
+                        <span class="percent">100%</span><br>
+                        <span class="pros">Соблюдение сроков</span>
                     </li>
                     <li>
-                        <span>50%</span>
-                        <span>Минимальная предоплата</span>
+                        <span class="percent">50%</span><br>
+                        <span class="pros">Минимальная предоплата</span>
                     </li>
                 </ul>
         </section>
 
         <section class="stalls">
-            <ul>
-                <li>
+            <ul >
+                <li class="partners">
                     <a href="#">
                     <img src="img/logo-1.png%20copy%202.png" width="255"  alt="html academy">
                     </a>
                 </li>
-                    <li>
+                    <li class="partners">
                         <a href="#">
                         <img src="img/logo-2.png%20copy%202.png" width="255"  alt="borodinski">
                         </a>
                     </li>
-                    <li>
+                    <li class="partners">
                         <a href="#">
                         <img src="img/logo-3.png%20copy%202.png" width="255" alt="pink">
                         </a>
                     </li>
-                    <li>
+                    <li class="partners">
                         <a href="#">
                         <img src="img/logo-4.png%20copy%202.png" width="255" alt="mishka">
                         </a>
@@ -138,12 +141,12 @@
         <section class="maps">
             <img src="img/home/maps.png" width="1000"  alt="maps">
             <div class="address">
-                    <h3>nerds design studio</h3>
+                    <h3 class="window-title">nerds design studio</h3>
                     <p>
-                    191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-                    тел.+7(812)275-75-75
-                    </p>
-                    <button>Напишите нам</button>
+                    191186, Санкт-Петербург,<br>
+                        ул. Б. Конюшенная, д. 19/8</p>
+                    <p>тел.+7(812)275-75-75</p>
+                    <button class="popup-window" type="button">Напишите нам</button>
             </div>
         </section>
 
@@ -156,8 +159,8 @@
             <li><a href="#">inst</a></li>
         </ul>
 
-        <b>Давайте дружить, это выгодно!</b>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
+        <b class="social-networks">Давайте дружить, это выгодно!</b>
+        <p class="sale">Скидка 10% для друзей из социальных сетей.</p>
     </footer>
 
     <div class="feedback">
@@ -177,7 +180,7 @@
             <textarea name="letter" id="letter-field" cols="70" rows="5">В свободной форме</textarea>
             <br>
 
-            <button type="submit">Отправить</button>
+            <button class="button" type="submit">Отправить</button>
         </form>
     </div>
 
