@@ -37,10 +37,13 @@ ul {
 .site-navigation a {
   font-size: 16px;
   line-height: 30px;
+  font-weight: 500;
   background: #eeeeee;
-
-
 }
+.basket {
+  font-weight: 500;
+}
+
 .site-navigation a:hover,
 .site-navigation a:focus {
   color: #e74246;
