@@ -58,6 +58,20 @@ ul {
   border-bottom: 1px solid #e74246;
 }
 
+.basket a:hover,
+.basket a:focus {
+  color: #e74246;
+}
+
+.basket a:active {
+  color:#999999
+}
+
+.basket .active {
+  color: black;
+  border-bottom: 1px solid #e74246;
+}
+
 .feature-item {
   text-align: center;
   display: inline-block;
