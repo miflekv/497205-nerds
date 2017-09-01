@@ -30,6 +30,11 @@ ul {
   list-style-type: none;
 }
 
+.main-header-logo {
+  width: 160px;
+  height: 68px;
+}
+
 .feedback {
   display: none;
 }
@@ -198,4 +203,44 @@ ul {
   background-color: #d7373b;
 }
 
+/**
+Сетка
+ */
 
+.container-header{
+  border: 1px solid green;
+  min-height: 133px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navigation {
+  border: 1px solid red;
+  min-height: 133px;
+  background-color: transparent;
+
+
+}
+
+.main-header-logo {
+  border: 1px solid yellow;
+  width: 160px;
+  height: 68px;
+}
+
+.site-navigation {
+  border: 1px solid yellow;
+  margin: 0;
+  padding: 0;
+  min-height: 70px;
+  width: 540px;
+}
+
+.basket{
+  border: 1px solid yellow;
+  margin: 0;
+  padding: 0;
+  min-height: 20px;
+  align-items: right;
+  width: 180px;
+}
